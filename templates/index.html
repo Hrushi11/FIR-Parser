@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/style.css" />
+    <link
+      rel="stylesheet"
+      href=".\static\font-icons\css\font-awesome.min.css"
+    />
+    <script src="./static/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href=".\static\1.3 grid.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Gradient Parsing</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- Header -->
+      <header class="header">
+        <div class="container flex-between">
+          <div class="logo">
+            <a href="#" class="font-text">
+              <!-- <img src=".\static\assets\df.png" alt="" /> -->
+              Gradient Parsing
+            </a>
+          </div>
+          <nav class="main-navgation flex-between flex-ver-top">
+            <!-- <div class="nav-links">
+              <a href="#api">API</a>
+              <a href="#">DOCS</a>
+              <a href="#">Github</a>
+            </div> -->
+            <div class="nav-buttons">
+              <a href="#" class="log-in"><h2 class="log-in-text">API</h2></a>
+              <a href="#" class="sign-up btn btn-sm">Github</a>
+            </div>
+          </nav>
+          <div class="burger-menu">
+            <!-- <i class="fa-regular fa-bars icon"></i> -->
+            <i class="fa fa-bars icon"></i>
+          </div>
+        </div>
+      </header>
+      <!-- Landing -->
+      <section class="landing">
+        <div class="landing-text">
+          <h1>Let the PDF's talk for you</h1>
+          <p>Get data from FIR Pdfs in any regional language of India.</p>
+          <a href="#url-shorten-form" class="btn btn-lg">Get Started</a>
+        </div>
+        <div class="landing-image">
+          <img
+            src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/illustration-working.svg"
+            alt="Working Illustration"
+          />
+        </div>
+      </section>
+      <!-- Features -->
+      <section class="features" id="features">
+        <div class="container">
+          <!-- Short URL Feature -->
+          <div class="url-shorten-feature">
+            <form class="url-shorten-form" id="url-shorten-form">
+              <div>
+                <input
+                  type="text"
+                  class="url-input"
+                  placeholder="PDF link here..."
+                  autocomplete="off"
+                />
+                <span class="alert"></span>
+              </div>
+              <button type="submit" class="btn btn-lg btn-plus-icon">
+                Get Content
+              </button>
+            </form>
+            <div class="url-shorten-results"></div>
+          </div>
+          <!-- Advanced Features -->
+          <div class="more-features">
+            <div class="section-header">
+              <h2>Feature insights</h2>
+              <p>
+                Get content from your single PDFs here or use the API to get
+                content from multiple PDFs.
+              </p>
+            </div>
+            <div class="more-features-content">
+              <div class="feature">
+                <div class="feature-illustration">
+                  <img
+                    src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-brand-recognition.svg"
+                    alt="Feature Illustration Icon"
+                  />
+                </div>
+                <div class="feature-details">
+                  <h3>Easy to Use</h3>
+                  <p>
+                    No code functionality on the web and less code to integrate
+                    the api. Use the API to send the link to the PDF and use the
+                    recieved content at your ease.
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-illustration">
+                  <img
+                    src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-detailed-records.svg"
+                    alt="Feature Illustration Icon"
+                  />
+                </div>
+                <div class="feature-details">
+                  <h3>Time Efficient</h3>
+                  <p>
+                    Faster results for extracting the content on the website as
+                    well as with the api. Integrate the api with other
+                    applications to get content from multiple PDFs at a time.
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-illustration">
+                  <img
+                    src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-fully-customizable.svg"
+                    alt="Feature Illustration Icon"
+                  />
+                </div>
+                <div class="feature-details">
+                  <h3>Fully Customizable</h3>
+                  <p>
+                    Transfer the API into your use case with minimal efforts.
+                    Can be you used on a large scale with minimal efforts.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Pricing -->
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <div class="section-header">
+            <h2>Extract content from your PDFs now</h2>
+            <a href="#" class="btn btn-lg">Get Started</a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="api-docs"><h1>API docs</h1></div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col span-1-of-2">
+            <ul class="footer-nav">
+              <li><a href="https://hrushi11.github.io/">Know me</a></li>
+              <li>
+                <a href="#" target="blank">Github</a>
+              </li>
+              <li>
+                <a href="#" target="blank">API Docs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col span-1-of-2">
+            <ul class="social-links">
+              <li>
+                <a href="https://github.com/Hrushi11" target="blank"
+                  ><ion-icon name="logo-github" class="github"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/hrushikesh-kachgunde-73a90b186/"
+                  target="blank"
+                  ><ion-icon name="logo-linkedin" class="lin"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:hrushiskachgunde@gmail.com"
+                  ><ion-icon name="mail-outline" class="gm"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/hrushi_ik/" target="blank"
+                  ><ion-icon name="logo-instagram" class="ig"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <p class="p">
+            Copyright &copy; 2022 &mdash; Hrushikesh Kachgunde. <br />
+            All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
